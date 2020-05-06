@@ -117,41 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="img_anime_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_021.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_031.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_041.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_061.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_071.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_081.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_091.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_101.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_anime_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_anime_121.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

@@ -1,6 +1,6 @@
 ﻿namespace AnimePosters
 {
-    partial class Form1
+    partial class FrmAnimes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.cboAnimes = new System.Windows.Forms.ComboBox();
+            this.picPoster = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picPoster)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // cboAnimes
+            // 
+            this.cboAnimes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboAnimes.FormattingEnabled = true;
+            this.cboAnimes.Location = new System.Drawing.Point(48, 27);
+            this.cboAnimes.Name = "cboAnimes";
+            this.cboAnimes.Size = new System.Drawing.Size(425, 24);
+            this.cboAnimes.TabIndex = 0;
+            this.cboAnimes.SelectedIndexChanged += new System.EventHandler(this.cboAnimes_SelectedIndexChanged);
+            // 
+            // picPoster
+            // 
+            this.picPoster.Location = new System.Drawing.Point(48, 57);
+            this.picPoster.Name = "picPoster";
+            this.picPoster.Size = new System.Drawing.Size(425, 490);
+            this.picPoster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.picPoster.TabIndex = 1;
+            this.picPoster.TabStop = false;
+            // 
+            // FrmAnimes
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(533, 580);
+            this.Controls.Add(this.picPoster);
+            this.Controls.Add(this.cboAnimes);
+            this.Name = "FrmAnimes";
+            this.Text = "Posters";
+            this.Load += new System.EventHandler(this.FrmAnimes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picPoster)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ComboBox cboAnimes;
+        private System.Windows.Forms.PictureBox picPoster;
     }
 }
 
