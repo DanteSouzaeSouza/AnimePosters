@@ -20,6 +20,7 @@ namespace AnimePosters
 
         private void cboAnimes_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // criando uma variável para receber o índice selecionado
             int index = cboAnimes.SelectedIndex;
 
             // Montar a tela com a imagem de acordo com o Index

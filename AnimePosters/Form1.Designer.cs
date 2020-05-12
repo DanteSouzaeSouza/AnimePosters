@@ -38,7 +38,7 @@
             this.cboAnimes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboAnimes.FormattingEnabled = true;
             this.cboAnimes.Location = new System.Drawing.Point(36, 22);
-            this.cboAnimes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboAnimes.Margin = new System.Windows.Forms.Padding(2);
             this.cboAnimes.Name = "cboAnimes";
             this.cboAnimes.Size = new System.Drawing.Size(361, 21);
             this.cboAnimes.TabIndex = 0;
@@ -47,7 +47,7 @@
             // picPoster
             // 
             this.picPoster.Location = new System.Drawing.Point(36, 46);
-            this.picPoster.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picPoster.Margin = new System.Windows.Forms.Padding(2);
             this.picPoster.Name = "picPoster";
             this.picPoster.Size = new System.Drawing.Size(361, 490);
             this.picPoster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -61,7 +61,7 @@
             this.ClientSize = new System.Drawing.Size(435, 564);
             this.Controls.Add(this.picPoster);
             this.Controls.Add(this.cboAnimes);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmAnimes";
             this.Text = "Posters";
             this.Load += new System.EventHandler(this.FrmAnimes_Load);
